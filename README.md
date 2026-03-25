@@ -88,7 +88,7 @@ Maak een **.env bestand**  en vul gegevens in:
 
 
 
-!\[env-bestand](https://raw.githubusercontent.com/Jenssah86/api-sql-project/master/images/2.jpg)
+!\[env-bestand](images/2.jpg)
 
 
 
