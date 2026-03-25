@@ -4,9 +4,9 @@
 
 
 
-*Dit project gebruikt FastAPI om een API-connectie op te bouwen,* 
+*Dit project gebruikt FastAPI om een API-connectie op te bouwen,*
 
-*vervolgens wordt er data uit een lokale sql-database geladen als er een GET-request wordt gedaan.* 
+*vervolgens wordt er data uit een lokale sql-database geladen als er een GET-request wordt gedaan.*
 
 *In deze situatie wordt er een MySQL database gebruikt die draait op XAMPP.*
 
@@ -88,13 +88,13 @@ Maak een **.env bestand**  en vul gegevens in:
 
 
 
-!\[env-bestand](imges/2.png)
+!\[env-bestand](images/2.png)
 
 
 
 
 
-!\[database.py](imges/3.png)
+!\[database.py](images/3.png)
 
 
 
@@ -102,7 +102,7 @@ Maak een **.env bestand**  en vul gegevens in:
 
 *Dit script maakt de verbinding met de MySQL‑database.*
 
-*Het laadt de instellingen uit het .env‑bestand, bouwt de database‑URL, maakt een SQLAlchemy‑engine* 
+*Het laadt de instellingen uit het .env‑bestand, bouwt de database‑URL, maakt een SQLAlchemy‑engine*
 
 *en zorgt voor een SessionLocal waarmee andere scripts database‑sessies kunnen openen.*
 
@@ -120,11 +120,11 @@ Maak een **.env bestand**  en vul gegevens in:
 
 
 
-!\[models.py](imges/4.png)
+!\[models.py](images/4.png)
 
 
 
-Database‑tabellen
+***Database‑tabellen***
 
 *In dit script staan de SQLAlchemy‑modellen.*
 
@@ -144,7 +144,7 @@ Database‑tabellen
 
 
 
-!\[main.py](imges/5.png)
+!\[main.py](images/5.png)
 
 
 
@@ -152,7 +152,7 @@ Database‑tabellen
 
 *Dit is het hoofdscript van de API.*
 
-*Het start de FastAPI‑server, maakt de database‑tabellen aan (als ze nog niet bestaan)* 
+*Het start de FastAPI‑server, maakt de database‑tabellen aan (als ze nog niet bestaan)*
 
 *en bevat de endpoints zoals /sales. Via Depends(get\_db) krijgt elk endpoint automatisch een database‑sessie.*
 
@@ -172,7 +172,7 @@ Database‑tabellen
 
 
 
-!\[server starten](imges/6.png)
+!\[server starten](images/6.png)
 
 
 
@@ -190,7 +190,7 @@ Ga naar: **http://127.0.0.1:8000/sales** om te testen of de data uit de fact\_sa
 
 
 
-!\[API-call output](imges/7.png)
+!\[API-call output](images/7.png)
 
 
 
