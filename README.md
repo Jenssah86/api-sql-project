@@ -52,7 +52,7 @@ Voer onderstaande opdracht uit in je venv:
 
 
 
-!\[pip list](images/1.png)
+!\[pip list](images/1.jpg)
 
 
 
@@ -88,7 +88,7 @@ Maak een **.env bestand**  en vul gegevens in:
 
 
 
-!\[env-bestand](https://raw.githubusercontent.com/Jenssah86/api-sql-project/master/images/2.png)
+!\[env-bestand](https://raw.githubusercontent.com/Jenssah86/api-sql-project/master/images/2.jpg)
 
 
 
