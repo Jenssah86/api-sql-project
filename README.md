@@ -52,7 +52,7 @@ Voer onderstaande opdracht uit in je venv:
 
 
 
-!\[pip list](./images/1.jpg)
+!\[pip list](./images/1.png)
 
 
 
@@ -88,13 +88,13 @@ Maak een **.env bestand**  en vul gegevens in:
 
 
 
-!\[env-bestand](images/2.jpg)
+!\[env-bestand](./images/2.jpg)
 
 
 
 
 
-!\[database.py](images/3.png)
+!\[database.py](./images/3.jpg)
 
 
 
@@ -120,7 +120,7 @@ Maak een **.env bestand**  en vul gegevens in:
 
 
 
-!\[models.py](images/4.png)
+!\[models.py](./images/4.jpg)
 
 
 
@@ -144,7 +144,9 @@ Maak een **.env bestand**  en vul gegevens in:
 
 
 
-!\[main.py](images/5.png)
+!\[main.py](./images/5.jpg)
+
+
 
 
 
@@ -172,7 +174,7 @@ Maak een **.env bestand**  en vul gegevens in:
 
 
 
-!\[server starten](images/6.png)
+!\[server starten](./images/6.jpg)
 
 
 
@@ -190,7 +192,7 @@ Ga naar: **http://127.0.0.1:8000/sales** om te testen of de data uit de fact\_sa
 
 
 
-!\[API-call output](images/7.png)
+!\[API-call output](./images/7.jpg)
 
 
 
