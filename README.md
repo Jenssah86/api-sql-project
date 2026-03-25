@@ -52,7 +52,7 @@ Voer onderstaande opdracht uit in je venv:
 
 
 
-!\[pip list](images/1.png)
+!\[pip list](images/11.jpg)
 
 
 
@@ -88,7 +88,7 @@ Maak een **.env bestand**  en vul gegevens in:
 
 
 
-!\[env-bestand](images/2.jpg)
+!\[env-bestand](images/22.jpg)
 
 
 
