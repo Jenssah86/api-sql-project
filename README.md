@@ -52,7 +52,7 @@ Voer onderstaande opdracht uit in je venv:
 
 
 
-!\[pip list](images/1.jpg)
+!\[pip list](./images/1.jpg)
 
 
 
